@@ -26,15 +26,15 @@ Install the following Python dependencies (with `pip install`):
     'trimesh>=2.35.39,<2.35.40'
     'networkx>=2.2,<2.3'
 
-## Training
-
-### Dataset
+## Dataset
 
 Visit the [GraspNet](https://graspnet.net/datasets.html) Website to get the dataset.
 
 #### Data preparation
 
 Prepare data by running `python prepare_data.py --gen_data`
+
+## Training and Predicting
 
 #### Train
 
