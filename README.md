@@ -1,14 +1,6 @@
 
 # Grasp Detection
 
-## Introduction
-This repository is code release for our grasp detection paper.
-
-In this repository, we provide implementation of the proposed method (with Pytorch):
-1. VoteGrasp model can be found in [models/votegrasp.py](https://github.com/hoangcuongbk80/NovelVoteGrasp/blob/master/models/votegrasp.py)
-2. Context learning module and grasp generation module can be found in [models/proposal_module.py](https://github.com/hoangcuongbk80/NovelVoteGrasp/blob/master/models/proposal_module.py)
-3. Loss function can found in [models/loss_helper.py](https://github.com/hoangcuongbk80/NovelVoteGrasp/blob/master/models/loss_helper.py)
-
 ## Installation
 
 Install [Pytorch](https://pytorch.org/get-started/locally/) and [Tensorflow](https://github.com/tensorflow/tensorflow) (for TensorBoard). It is required that you have access to GPUs. The code is tested with Ubuntu 18.04, Pytorch v1.16, TensorFlow v1.14, CUDA 10.1 and cuDNN v7.4.
