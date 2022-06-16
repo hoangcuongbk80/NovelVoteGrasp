@@ -1,8 +1,8 @@
 
-# Context-Aware Grasp Generation in Cluttered Scenes
+# Grasp Detection
 
 ## Introduction
-This repository is code release for our VoteGrasp paper.
+This repository is code release for our grasp detection paper.
 
 In this repository, we provide implementation of the proposed method (with Pytorch):
 1. VoteGrasp model can be found in [models/votegrasp.py](https://github.com/hoangcuongbk80/NovelVoteGrasp/blob/master/models/votegrasp.py)
