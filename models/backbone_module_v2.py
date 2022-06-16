@@ -177,15 +177,6 @@ class Pointnet2Backbone(nn.Module):
         # self.pam5 = PAM(256)
         # self.pam6 = PAM(256)
 
-        # 3D attentions:
-
-        # A-SCN
-        # self.sc1 = ShapeContext(128)
-        # self.sc2 = ShapeContext(256)
-        # self.sc3 = ShapeContext(256)
-        # self.sc4 = ShapeContext(256)
-        # self.sc5 = ShapeContext(256)
-        # self.sc6 = ShapeContext(256)
 
         # Point-Attention
         # self.pa1 = PointAttentionNetwork(128)
@@ -195,21 +186,6 @@ class Pointnet2Backbone(nn.Module):
         # self.pa5 = PointAttentionNetwork(256)
         # self.pa6 = PointAttentionNetwork(256)
 
-        # Channel-Affinity Attention
-        # self.caa1 = CAA_Module(128, 2048)
-        # self.caa2 = CAA_Module(256, 1024)
-        # self.caa3 = CAA_Module(256, 512)
-        # self.caa4 = CAA_Module(256, 256)
-        # self.caa5 = CAA_Module(256, 512)
-        # self.caa6 = CAA_Module(256, 1024)
-
-        # Offset-Attention
-        # self.oa1 = OffsetAttention(128)
-        # self.oa2 = OffsetAttention(256)
-        # self.oa3 = OffsetAttention(256)
-        # self.oa4 = OffsetAttention(256)
-        # self.oa5 = OffsetAttention(256)
-        # self.oa6 = OffsetAttention(256)
 
         # Point Transformer
         # self.pt1 = Point_Transformer(128)
