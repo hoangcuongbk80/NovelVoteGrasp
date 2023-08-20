@@ -1,5 +1,6 @@
-
 # Grasp Detection
+
+## [Video](https://youtu.be/3GVTBqkL5NY)
 
 ## Installation
 
