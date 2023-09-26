@@ -1,5 +1,3 @@
-// Author: chenxi-wang
-
 #include "cylinder_query.h"
 #include "utils.h"
 

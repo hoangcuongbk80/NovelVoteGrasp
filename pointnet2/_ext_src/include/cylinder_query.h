@@ -1,5 +1,3 @@
-// Author: chenxi-wang
-
 #pragma once
 #include <torch/extension.h>
 

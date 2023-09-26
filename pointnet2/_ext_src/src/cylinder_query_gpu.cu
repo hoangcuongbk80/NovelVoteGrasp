@@ -1,4 +1,3 @@
-// Author: chenxi-wang
 
 #include <math.h>
 #include <stdio.h>
